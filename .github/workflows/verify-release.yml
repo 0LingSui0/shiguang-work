@@ -14,12 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TAG: ${{ github.event.release.tag_name || github.event.inputs.tag || 'v2.0.0' }}
     steps:
       - uses: actions/checkout@v4
       - name: Download release assets
         run: |
           mkdir -p assets
-          gh release download "${{ github.event.release.tag_name }}" \
+          gh release download "$TAG" \
             --pattern "ShiguangWork-Setup-2.0.exe" \
             --pattern "ShiguangWork-2.0-Windows.zip" \
             --pattern "ShiguangWork-v2.0.apk" \
