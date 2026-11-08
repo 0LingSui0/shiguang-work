@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.2
+
+- 修复手机 APK 仍内置 11-07 旧页面：更新为当前 index-v2.html，APK 版本 2.0.2/code 4
+- 桌面 Setup/zip 沿用 v2.0.1 修正版
+
 ## v2.0.1
 
 - 修复 v2.0.0 发布包误用旧 publish-folder：Setup/zip 主程序已与当前构建一致

@@ -14,7 +14,7 @@
 
 ### 电脑版
 
-1. 从 [Release v2.0.1](https://github.com/0LingSui0/shiguang-work/releases/tag/v2.0.1) 下载 `ShiguangWork-Setup-2.0.exe`
+1. 从 [Release v2.0.2](https://github.com/0LingSui0/shiguang-work/releases/tag/v2.0.2) 下载 `ShiguangWork-Setup-2.0.exe`
 2. 双击 `安装到本机.cmd`（自动复制 Setup 到 ASCII 临时目录再安装）
 3. 卸载：`卸载.cmd`
 
@@ -22,7 +22,7 @@
 
 ### 手机版
 
-- 从 Release 下载 `ShiguangWork-v2.0.apk`（Android）
+- 从 Release 下载 `ShiguangWork-v2.0.2.apk`（Android）
 - 首次运行允许通知和“显示在其他应用上层”权限
 - 右上角按钮可关闭悬浮球
 
