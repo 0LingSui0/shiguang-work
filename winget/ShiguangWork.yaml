@@ -1,5 +1,5 @@
 PackageIdentifier: 0LingSui0.ShiguangWork
-PackageVersion: 2.0.0
+PackageVersion: 2.0.2
 PackageLocale: zh-CN
 Publisher: 拾光工作
 PublisherUrl: https://github.com/0LingSui0/shiguang-work
@@ -16,8 +16,8 @@ Tags:
 Installers:
   - Architecture: x64
     InstallerType: nullsoft
-    InstallerUrl: https://github.com/0LingSui0/shiguang-work/releases/download/v2.0.0/ShiguangWork-Setup-2.0.exe
-    InstallerSha256: 733265DEF76067C5E2AFD98C30D11349668C659C60ED0D9A020F06E734B05946
+    InstallerUrl: https://github.com/0LingSui0/shiguang-work/releases/download/v2.0.2/ShiguangWork-Setup-2.0.exe
+    InstallerSha256: 98FBED13DE256F4FBC6CD8D4CE387D0D8CC68FF1486C7009A7FC613E4F2DF50A
     InstallerSwitches:
       Silent: /S
       SilentWithProgress: /S
