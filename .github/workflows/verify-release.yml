@@ -1,0 +1,29 @@
+name: Verify Release Assets
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download release assets
+        run: |
+          mkdir -p assets
+          gh release download "${{ github.event.release.tag_name }}" \
+            --pattern "ShiguangWork-Setup-2.0.exe" \
+            --pattern "ShiguangWork-2.0-Windows.zip" \
+            --pattern "ShiguangWork-v2.0.apk" \
+            --pattern "SHA256SUMS.txt" \
+            --dir assets
+      - name: Verify SHA256
+        run: cd assets && sha256sum -c SHA256SUMS.txt

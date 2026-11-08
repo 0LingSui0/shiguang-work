@@ -1,0 +1,26 @@
+PackageIdentifier: 0LingSui0.ShiguangWork
+PackageVersion: 2.0.0
+PackageLocale: zh-CN
+Publisher: 拾光工作
+PublisherUrl: https://github.com/0LingSui0/shiguang-work
+PackageName: 拾光工作
+PackageUrl: https://github.com/0LingSui0/shiguang-work
+License: MIT
+LicenseUrl: https://github.com/0LingSui0/shiguang-work/blob/main/LICENSE
+ShortDescription: 目标→阶段→任务计划工具，桌面圆球/手机悬浮球/DSH 只读
+Moniker: shiguang
+Tags:
+  - planning
+  - todo
+  - chinese
+Installers:
+  - Architecture: x64
+    InstallerType: nullsoft
+    InstallerUrl: https://github.com/0LingSui0/shiguang-work/releases/download/v2.0.0/ShiguangWork-Setup-2.0.exe
+    InstallerSha256: 733265DEF76067C5E2AFD98C30D11349668C659C60ED0D9A020F06E734B05946
+    InstallerSwitches:
+      Silent: /S
+      SilentWithProgress: /S
+    Scope: user
+ManifestType: singleton
+ManifestVersion: 1.6.0
