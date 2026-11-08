@@ -14,7 +14,7 @@
 
 ### 电脑版
 
-1. 从 [Release v2.0.0](https://github.com/0LingSui0/shiguang-work/releases/tag/v2.0.0) 下载 `ShiguangWork-Setup-2.0.exe`
+1. 从 [Release v2.0.1](https://github.com/0LingSui0/shiguang-work/releases/tag/v2.0.1) 下载 `ShiguangWork-Setup-2.0.exe`
 2. 双击 `安装到本机.cmd`（自动复制 Setup 到 ASCII 临时目录再安装）
 3. 卸载：`卸载.cmd`
 
